@@ -1,0 +1,12 @@
+﻿@model IEnumerable<OdeToParties.Data.Models.Party>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Party Tracker</h1>
+    <div>
+        There are @Model.Count() parties in the database.
+    </div>
+</div>
